@@ -1,14 +1,6 @@
 module.exports = ({ env }) => ({
   upload: {
-    enabled: true,
-    config: {
-      provider: "aws-s3",
-      providerOptions: {
-        params: {
-          Bucket: env("AWS_S3_MEDIA_BUCKET"),
-        },
-      },
-    },
+    enabled: false,
   },
   "website-builder": {
     enabled: true,
