@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_shop_product_prices",
+  "info": {
+    "displayName": "ShopProductPrice"
+  },
+  "options": {},
+  "attributes": {
+    "currentPrice": {
+      "type": "float"
+    },
+    "originalPrice": {
+      "type": "float"
+    },
+    "curreny": {
+      "type": "enumeration",
+      "enum": [
+        "TRY"
+      ]
+    }
+  }
+}

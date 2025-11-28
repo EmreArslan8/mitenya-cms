@@ -1,0 +1,12 @@
+{
+    "collectionName": "components_product_price",
+    "info": {
+      "displayName": "price"
+    },
+    "attributes": {
+      "currentPrice": { "type": "decimal" },
+      "originalPrice": { "type": "decimal" },
+      "currency": { "type": "string" }
+    }
+  }
+  

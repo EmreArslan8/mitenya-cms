@@ -1,0 +1,13 @@
+{
+    "collectionName": "components_product_reviews",
+    "info": {
+      "displayName": "review"
+    },
+    "attributes": {
+      "name": { "type": "string" },
+      "rating": { "type": "decimal" },
+      "text": { "type": "text" },
+      "date": { "type": "string" }
+    }
+  }
+  

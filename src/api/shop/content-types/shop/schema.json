@@ -10,43 +10,34 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {
-  },
+  "pluginOptions": {},
   "attributes": {
     "name": {
-      "pluginOptions": {
-      
-      },
+      "pluginOptions": {},
       "type": "string",
       "private": true,
       "default": "New Shop Index Page (visible in CMS dashboard only)",
       "required": false
     },
     "title": {
-      "pluginOptions": {
-      },
+      "pluginOptions": {},
       "type": "string",
       "required": true
     },
     "slug": {
-      "pluginOptions": {
-       
-      },
+      "pluginOptions": {},
       "type": "string",
       "required": false,
       "regex": "^[a-zA-Z][a-zA-Z\\-/]*$"
     },
     "uid": {
-      "pluginOptions": {
-        
-      },
+      "pluginOptions": {},
       "type": "uid",
       "targetField": "name",
       "required": true
     },
     "blocks": {
-      "pluginOptions": {
-      },
+      "pluginOptions": {},
       "type": "dynamiczone",
       "components": [
         "blocks.shop-feature-cards",
@@ -57,12 +48,12 @@
         "blocks.shop-inline-products",
         "blocks.shop-ribbon",
         "blocks.shop-info-areas",
-        "blocks.shop-badge-button"
+        "blocks.shop-badge-button",
+        "blocks.shop-slider-cards"
       ]
     },
     "gap": {
-      "pluginOptions": {
-      },
+      "pluginOptions": {},
       "type": "enumeration",
       "enum": [
         "small",

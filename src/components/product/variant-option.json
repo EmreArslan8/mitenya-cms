@@ -1,0 +1,13 @@
+{
+    "collectionName": "components_product_variant_options",
+    "info": {
+      "displayName": "variant-option"
+    },
+    "attributes": {
+      "value": { "type": "string", "required": true },
+      "isAvailable": { "type": "boolean" },
+      "selected": { "type": "boolean" },
+      "price": { "type": "decimal" }
+    }
+  }
+  

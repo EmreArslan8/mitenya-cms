@@ -1,0 +1,11 @@
+{
+    "collectionName": "components_product_rating",
+    "info": {
+      "displayName": "rating"
+    },
+    "attributes": {
+      "averageRating": { "type": "decimal" },
+      "totalCount": { "type": "integer" }
+    }
+  }
+  

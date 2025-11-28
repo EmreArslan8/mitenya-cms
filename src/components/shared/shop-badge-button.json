@@ -13,6 +13,9 @@
       "multiple": false,
       "required": true
     },
+    "title": {
+      "type": "string"
+    },
     "label": {
       "type": "string"
     },

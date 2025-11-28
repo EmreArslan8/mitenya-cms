@@ -11,24 +11,17 @@
     "draftAndPublish": true
   },
   "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
   },
   "attributes": {
     "name": {
       "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
+       
       },
       "type": "string"
     },
     "uid": {
       "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
+       
       },
       "type": "uid",
       "targetField": "name"
@@ -38,9 +31,7 @@
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
+       
       },
       "component": "shared.shop-header-link"
     },
@@ -48,9 +39,7 @@
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
+
       },
       "component": "shared.shop-header-link"
     }

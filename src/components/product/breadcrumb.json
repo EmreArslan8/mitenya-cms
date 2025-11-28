@@ -1,0 +1,11 @@
+{
+    "collectionName": "components_product_breadcrumbs",
+    "info": {
+      "displayName": "breadcrumb"
+    },
+    "attributes": {
+      "text": { "type": "string" },
+      "searchOptions": { "type": "json" }
+    }
+  }
+  
