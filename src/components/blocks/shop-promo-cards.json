@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_shop_promo_cards",
+  "info": {
+    "displayName": "ShopPromoCards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.shop-promo-card"
+    },
+    "gridOptions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.grid-layout-options"
+    }
+  }
+}

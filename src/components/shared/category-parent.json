@@ -1,0 +1,28 @@
+{
+    "collectionName": "components_shared_category_parents",
+    "info": {
+      "displayName": "CategoryParent",
+      "description": "En üst seviye kategori"
+    },
+    "attributes": {
+      "label": {
+        "type": "string",
+        "required": true
+      },
+      "slug": {
+        "type": "string"
+      },
+      "brands": {
+        "type": "component",
+        "repeatable": true,
+        "component": "shared.brand-item"
+      },
+      "subs": {
+        "type": "component",
+        "repeatable": true,
+        "component": "shared.category-sub"
+      }
+      
+    }
+  }
+  

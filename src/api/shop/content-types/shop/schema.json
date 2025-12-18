@@ -49,7 +49,11 @@
         "blocks.shop-ribbon",
         "blocks.shop-info-areas",
         "blocks.shop-badge-button",
-        "blocks.shop-slider-cards"
+        "blocks.shop-slider-cards",
+        "blocks.shop-promo-cards",
+        "blocks.shop-category-blocks",
+        "shared.shop-promo-card",
+        "blocks.shop-brands"
       ]
     },
     "gap": {

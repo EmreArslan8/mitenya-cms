@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_brand_items",
+  "info": {
+    "displayName": "BrandItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

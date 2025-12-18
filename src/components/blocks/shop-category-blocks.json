@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_shop_category_blocks",
+  "info": {
+    "displayName": "ShopCategoryBlocks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.shop-category-block"
+    }
+  }
+}

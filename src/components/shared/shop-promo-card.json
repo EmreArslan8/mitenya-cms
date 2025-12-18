@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_shared_shop_promo_cards",
+  "info": {
+    "displayName": "ShopPromoCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "ctaText": {
+      "type": "string",
+      "required": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ctaUrl": {
+      "type": "string",
+      "required": false
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "mid"
+      ],
+      "default": "left"
+    },
+    "colorway": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark"
+      ],
+      "default": "light"
+    }
+  }
+}

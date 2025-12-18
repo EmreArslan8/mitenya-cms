@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_shared_shop_category_block",
+  "info": {
+    "displayName": "ShopCategoryBlock",
+    "description": "Shop category block"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": false
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "buttonLabel": {
+      "type": "string",
+      "required": false
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_self",
+        "_blank"
+      ],
+      "default": "_self"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "featured"
+      ],
+      "default": "default"
+    }
+  }
+}

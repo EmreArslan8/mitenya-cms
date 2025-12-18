@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_shop_brands",
+  "info": {
+    "displayName": "ShopBrand",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "highlight": {
+      "type": "boolean"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}

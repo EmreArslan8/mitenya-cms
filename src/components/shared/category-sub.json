@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_shared_category_subs",
+    "info": {
+      "displayName": "CategorySub",
+      "description": "İkinci seviye kategori"
+    },
+    "attributes": {
+      "label": {
+        "type": "string",
+        "required": true
+      },
+      "slug": {
+        "type": "string"
+      },
+      "items": {
+        "type": "component",
+        "repeatable": true,
+        "component": "shared.category-sub-item"
+      }
+    }
+  }
+  

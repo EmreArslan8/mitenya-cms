@@ -10,19 +10,14 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {
-  },
+  "pluginOptions": {},
   "attributes": {
     "name": {
-      "pluginOptions": {
-       
-      },
+      "pluginOptions": {},
       "type": "string"
     },
     "uid": {
-      "pluginOptions": {
-       
-      },
+      "pluginOptions": {},
       "type": "uid",
       "targetField": "name"
     },
@@ -30,18 +25,19 @@
       "displayName": "ShopHeaderLink",
       "type": "component",
       "repeatable": true,
-      "pluginOptions": {
-       
-      },
+      "pluginOptions": {},
       "component": "shared.shop-header-link"
     },
     "bannerLinks": {
       "type": "component",
       "repeatable": true,
-      "pluginOptions": {
-
-      },
+      "pluginOptions": {},
       "component": "shared.shop-header-link"
+    },
+    "categories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.category-parent"
     }
   }
 }
