@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_blocks_shop_feature_banners",
+  "info": {
+    "displayName": "ShopFeatureBanner",
+    "description": "Main banner slider + 2 side banners"
+  },
+  "attributes": {
+    "section": {
+      "type": "component",
+      "component": "shared.section",
+      "required": true
+    },
+    "mainBanners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.banner",
+      "required": true
+    },
+    "sideBanners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.banner",
+      "required": true,
+      "max": 2
+    }
+  }
+}

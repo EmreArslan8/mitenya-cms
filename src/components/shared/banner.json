@@ -23,8 +23,7 @@
         "images"
       ],
       "type": "media",
-      "multiple": false,
-      "required": false
+      "multiple": false
     }
   }
 }
