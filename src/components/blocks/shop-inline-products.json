@@ -28,6 +28,11 @@
       ],
       "required": true,
       "default": "slider"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.product-tab"
     }
   }
 }

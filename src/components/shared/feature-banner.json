@@ -1,24 +1,13 @@
 {
-  "collectionName": "components_shared_banners",
+  "collectionName": "components_shared_feature_banners",
   "info": {
-    "displayName": "banner",
+    "displayName": "FeatureBanner",
     "description": ""
   },
   "options": {},
   "attributes": {
     "url": {
       "type": "string"
-    },
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "button": {
-      "type": "component",
-      "component": "shared.button",
-      "required": false
     },
     "image": {
       "type": "media",
@@ -36,6 +25,17 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
     }
   }
 }

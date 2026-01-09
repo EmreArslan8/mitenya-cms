@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_product_tabs",
+  "info": {
+    "displayName": "ProductTab",
+    "description": "Inline product slider/grid için kategori sekmesi"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category",
+      "required": true
+    },
+    "sort": {
+      "type": "enumeration",
+      "enum": ["rct", "asc", "dsc"],
+      "default": "rct"
+    },
+    "query": {
+      "type": "string"
+    }
+  }
+}
