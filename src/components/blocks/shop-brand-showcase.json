@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_blocks_shop_brand_showcase_s",
+  "info": {
+    "displayName": "ShopBrandShowcase ",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "searchOptions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.shop-search-options"
+    }
+  }
+}

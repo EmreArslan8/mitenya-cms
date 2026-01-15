@@ -55,7 +55,8 @@
         "shared.shop-promo-card",
         "blocks.shop-brands",
         "blocks.shop-feature-banners",
-        "blocks.shop-blog-card"
+        "blocks.shop-blog-card",
+        "blocks.shop-brand-showcase"
       ]
     },
     "gap": {
