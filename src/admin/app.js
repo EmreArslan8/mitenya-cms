@@ -29,7 +29,7 @@ const config = {
   ],
   translations: {
     en: {
-      "app.components.LeftMenu.navbrand.title": "Kozmedo",
+      "app.components.LeftMenu.navbrand.title": "Mitenya",
       "app.components.LeftMenu.navbrand.workplace": "Content Management",
     },
   },
