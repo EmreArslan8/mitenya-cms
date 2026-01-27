@@ -1,6 +1,27 @@
 module.exports = ({ env }) => ({
   upload: {
-    enabled: false,
+    config: {
+      provider: 'cloudinary',
+      providerOptions: {
+        cloud_name: env('CLOUDINARY_NAME'),
+        api_key: env('CLOUDINARY_KEY'),
+        api_secret: env('CLOUDINARY_SECRET'),
+      },
+      actionOptions: {
+        upload: {
+          folder: 'strapi-uploads',
+          resource_type: 'auto',
+          quality: 'auto:best',
+          fetch_format: 'auto',
+        },
+        uploadStream: {
+          folder: 'strapi-uploads',
+          resource_type: 'auto',
+          quality: 'auto:best',
+        },
+        delete: {},
+      },
+    },
   },
   "website-builder": {
     enabled: true,
