@@ -8,8 +8,10 @@
   "options": {},
   "attributes": {
     "icon": {
-      "type": "string",
-      "required": false
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
     },
     "label": {
       "type": "string"
